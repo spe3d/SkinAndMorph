@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A45DF0C1BE0D29C009B1502 /* skin_and_morph_example.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1A45DF0B1BE0D29C009B1502 /* skin_and_morph_example.dae */; };
+		1AE749B01BE1A484007A87A8 /* skin_and_morph_example.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1AE749AF1BE1A484007A87A8 /* skin_and_morph_example.scn */; };
 		1AE930481BE0C1D50093ED12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE930471BE0C1D50093ED12 /* AppDelegate.swift */; };
 		1AE9304A1BE0C1D50093ED12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE930491BE0C1D50093ED12 /* ViewController.swift */; };
 		1AE9304D1BE0C1D50093ED12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE9304B1BE0C1D50093ED12 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A45DF0B1BE0D29C009B1502 /* skin_and_morph_example.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = skin_and_morph_example.dae; sourceTree = "<group>"; };
+		1AE749AF1BE1A484007A87A8 /* skin_and_morph_example.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = skin_and_morph_example.scn; sourceTree = "<group>"; };
 		1AE930441BE0C1D50093ED12 /* SkinAndMorph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinAndMorph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE930471BE0C1D50093ED12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AE930491BE0C1D50093ED12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		1AE930461BE0C1D50093ED12 /* SkinAndMorph */ = {
 			isa = PBXGroup;
 			children = (
+				1A45DF0B1BE0D29C009B1502 /* skin_and_morph_example.dae */,
+				1AE749AF1BE1A484007A87A8 /* skin_and_morph_example.scn */,
 				1AE930471BE0C1D50093ED12 /* AppDelegate.swift */,
 				1AE930491BE0C1D50093ED12 /* ViewController.swift */,
 				1AE9304B1BE0C1D50093ED12 /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE749B01BE1A484007A87A8 /* skin_and_morph_example.scn in Resources */,
 				1AE930521BE0C1D50093ED12 /* LaunchScreen.storyboard in Resources */,
+				1A45DF0C1BE0D29C009B1502 /* skin_and_morph_example.dae in Resources */,
 				1AE9304F1BE0C1D50093ED12 /* Assets.xcassets in Resources */,
 				1AE9304D1BE0C1D50093ED12 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +294,7 @@
 				1AE930581BE0C1D50093ED12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
